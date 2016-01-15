@@ -25,9 +25,9 @@ if (local):
    pirDoc = xml.dom.minidom.parseString(f.read())
 else:
    # conn = psycopg2.connect("dbname='1764220_george' user='1764220_george' \
-   #       host='pgdb1.runhosting.com' password='372450e604'")
+   #       host='pgdb1.runhosting.com' password=''")
    # cursor = conn.cursor()
-   cursor = MySQLdb.connect(host="pdb19.awardspace.net",user="1764220_pir",passwd="372450e604", \
+   cursor = MySQLdb.connect(host="pdb19.awardspace.net",user="1764220_pir",passwd="", \
                                db="1764220_pir").cursor() 
    xml_str = sys.stdin.read()
    xml_str = re.sub('>\s*<','><',xml_str)
