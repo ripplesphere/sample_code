@@ -17,7 +17,7 @@
 			var dgc:DataGridColumn=new DataGridColumn("name")
 			dgc.headerText="Persons"
 			dgc.width=200
-//		    dgc.sortableColumns = true
+////		    dgc.sortableColumns = true
 			personDG.addColumn(dgc)
 			var name_dgc:DataGridColumn=new DataGridColumn("title")
 			name_dgc.headerText="Stories"
